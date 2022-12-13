@@ -2,6 +2,7 @@
 layout: default
 title:  Classes
 parent: Class
+grand_parent: Introduction to Python
 nav_order: 1
 ---
 
