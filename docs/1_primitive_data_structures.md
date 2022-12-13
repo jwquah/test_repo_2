@@ -1,3 +1,8 @@
+---
+title:  Primitive Data Structures
+parent: docs
+---
+
 ## Primitive Data Structures
 + Python has the usual set of basic variable types such as:
  + Integer
