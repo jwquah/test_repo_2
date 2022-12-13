@@ -1,6 +1,7 @@
 ---
 title:  Primitive Data Structures
 parent: docs
+has_children: true
 ---
 
 ## Primitive Data Structures
