@@ -3,7 +3,7 @@ layout: default
 title:  Class Object
 parent: Python Class
 grand_parent: Introduction to Python
-nav_order: 14
+nav_order: 1
 ---
 
 # Classes

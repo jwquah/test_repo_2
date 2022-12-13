@@ -3,7 +3,7 @@ layout: default
 title:  Polymorphism
 parent: Python Class
 grand_parent: Introduction to Python
-nav_order: 2
+nav_order: 3
 ---
 
 ## Polymorphism
