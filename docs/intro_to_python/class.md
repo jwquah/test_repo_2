@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Class
+title: Python Class
 parent: Introduction to Python
 has_children: true
 permalink: /docs/intro_to_python/class

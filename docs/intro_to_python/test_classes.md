@@ -1,9 +1,8 @@
 ---
 layout: default
-title:  Classes
-parent: Class
+title:  Test Classes
+parent: Python Class
 grand_parent: Introduction to Python
-nav_order: 1
 ---
 
 # Classes
