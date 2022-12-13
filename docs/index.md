@@ -7,4 +7,5 @@ description: "Notes on things I've learnt"
 permalink: /
 ---
 
-
+# {{ site.title }}
+{: .no_toc }
