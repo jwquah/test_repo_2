@@ -1,7 +1,8 @@
 ---
 layout: default
 title:  Classes
-parent: Class
+parent: Introduction to Python
+nav_order: 14
 ---
 
 # Classes
