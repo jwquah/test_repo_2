@@ -1,10 +1,12 @@
 ---
 layout: default
-title:  Classes
-parent: Class
+title: Class
+parent: Introduction to Python
+has_children: true
+permalink: /docs/intro_to_python/class
 ---
 
-# Classes
+# Class
 + As with any object oriented programming language, Python supports classes.
 + Class is a programming construct and can be thought of as a "blueprint":
  + It is used to create and contain objects
