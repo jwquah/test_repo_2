@@ -2,7 +2,7 @@
 layout: default
 title:  Using OS commands
 parent: Introduction to Python
-nav_order: 25
+nav_order: 23
 ---
 
 ## Simple OS commands

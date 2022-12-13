@@ -2,7 +2,7 @@
 layout: default
 title:  Decorator
 parent: Introduction to Python
-nav_order: 20
+nav_order: 18
 ---
 
 ### Decorators

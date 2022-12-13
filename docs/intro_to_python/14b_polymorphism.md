@@ -1,8 +1,9 @@
 ---
 layout: default
 title:  Polymorphism
-parent: Introduction to Python
-nav_order: 16
+parent: Python Class
+grand_parent: Introduction to Python
+nav_order: 2
 ---
 
 ## Polymorphism

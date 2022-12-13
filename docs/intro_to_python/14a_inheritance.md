@@ -1,8 +1,9 @@
 ---
 layout: default
 title:  Inheritance
-parent: Introduction to Python
-nav_order: 15
+parent: Python Class
+grand_parent: Introduction to Python
+nav_order: 1
 ---
 
 ## Inheritance

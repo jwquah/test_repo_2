@@ -2,7 +2,7 @@
 layout: default
 title:  Package module
 parent: Introduction to Python
-nav_order: 17
+nav_order: 15
 ---
 
 ## Using module from packages

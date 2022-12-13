@@ -2,7 +2,7 @@
 layout: default
 title:  Logging
 parent: Introduction to Python
-nav_order: 26
+nav_order: 24
 ---
 
 ## Logging

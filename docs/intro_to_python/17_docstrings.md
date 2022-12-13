@@ -2,7 +2,7 @@
 layout: default
 title:  Docstrings
 parent: Introduction to Python
-nav_order: 19
+nav_order: 17
 ---
 
 ### Docstrings

@@ -2,7 +2,7 @@
 layout: default
 title:  Simplifying Code
 parent: Introduction to Python
-nav_order: 18
+nav_order: 16
 ---
 
 ## Beautiful Code
