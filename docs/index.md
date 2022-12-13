@@ -2,12 +2,19 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Test description."
+has_children: true
+description: "Notes on things I've learnt"
 permalink: /
 ---
 
 # {{ site.title }}
 {: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 # Introduction to Python
  + An interpreted high-level programming language for general-purpose programming
