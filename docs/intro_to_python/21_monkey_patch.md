@@ -2,6 +2,7 @@
 layout: default
 title:  Monkey Patch
 parent: Introduction to Python
+nav_order: 23
 ---
 
 ## Monkey patch - mask functions

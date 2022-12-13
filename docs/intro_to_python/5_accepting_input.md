@@ -2,6 +2,7 @@
 layout: default
 title:  Accepting Inputs
 parent: Introduction to Python
+nav_order: 5
 ---
 
 ## Taking Keyboard Inputs

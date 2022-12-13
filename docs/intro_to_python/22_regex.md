@@ -2,6 +2,7 @@
 layout: default
 title:  Regular Expression
 parent: Introduction to Python
+nav_order: 24
 ---
 
 ## Regex

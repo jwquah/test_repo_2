@@ -2,6 +2,7 @@
 layout: default
 title:  Non-primitive Data Structures
 parent: Introduction to Python
+nav_order: 7
 ---
 
 ## Non-primitive Data Structures

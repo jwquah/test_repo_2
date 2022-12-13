@@ -2,6 +2,7 @@
 layout: default
 title:  File read/write
 parent: Introduction to Python
+nav_order: 6
 ---
 
 ## File Read/Write

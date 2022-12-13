@@ -2,6 +2,7 @@
 layout: default
 title:  Function declaration
 parent: Introduction to Python
+nav_order: 11
 ---
 
 ## Declaring Functions

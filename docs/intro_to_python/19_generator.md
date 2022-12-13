@@ -2,6 +2,7 @@
 layout: default
 title:  Generator
 parent: Introduction to Python
+nav_order: 21
 ---
 
 ## Generator

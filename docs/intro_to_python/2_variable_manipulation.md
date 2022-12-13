@@ -2,6 +2,7 @@
 layout: default
 title:  Variable Manipulation
 parent: Introduction to Python
+nav_order: 2
 ---
 
 ## Variable Manipulation

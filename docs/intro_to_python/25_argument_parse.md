@@ -2,6 +2,7 @@
 layout: default
 title:  Parsing Arguments
 parent: Introduction to Python
+nav_order: 27
 ---
 
 ## Parsing Arguments

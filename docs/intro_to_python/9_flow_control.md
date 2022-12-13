@@ -2,6 +2,7 @@
 layout: default
 title:  Flow Control
 parent: Introduction to Python
+nav_order: 9
 ---
 
 ### Flow Control

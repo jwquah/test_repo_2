@@ -2,6 +2,7 @@
 layout: default
 title:  Inheritance
 parent: Introduction to Python
+nav_order: 15
 ---
 
 ## Inheritance

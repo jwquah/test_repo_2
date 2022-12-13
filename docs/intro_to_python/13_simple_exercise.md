@@ -2,6 +2,7 @@
 layout: default
 title:  Simple Exercises
 parent: Introduction to Python
+nav_order: 13
 ---
 
 

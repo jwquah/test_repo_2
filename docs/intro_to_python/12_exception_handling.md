@@ -2,6 +2,7 @@
 layout: default
 title:  Exception Handling
 parent: Introduction to Python
+nav_order: 12
 ---
 
 ## Exception Handling

@@ -2,6 +2,7 @@
 layout: default
 title:  Lambda
 parent: Introduction to Python
+nav_order: 10
 ---
 
 ### Lambda

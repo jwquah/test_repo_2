@@ -2,6 +2,7 @@
 layout: default
 title:  Looping
 parent: Introduction to Python
+nav_order: 8
 ---
 
 ## Loop Examples

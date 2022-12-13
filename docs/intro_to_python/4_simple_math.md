@@ -2,6 +2,7 @@
 layout: default
 title:  Math Operation
 parent: Introduction to Python
+nav_order: 4
 ---
 
 ## Math Operation

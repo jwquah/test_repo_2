@@ -2,6 +2,7 @@
 layout: default
 title:  Iterator
 parent: Introduction to Python
+nav_order: 22
 ---
 
 ## Iterator

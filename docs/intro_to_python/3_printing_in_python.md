@@ -2,6 +2,7 @@
 layout: default
 title:  Printing Output
 parent: Introduction to Python
+nav_order: 3
 ---
 
 ## Printing Methods
