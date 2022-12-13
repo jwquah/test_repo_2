@@ -1,7 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 
-permalink: pretty
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
