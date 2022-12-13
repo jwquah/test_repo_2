@@ -1,6 +1,8 @@
 ---
+layout: default
 title:  Primitive Data Structures
 parent: Introduction to Python
+nav_order: 1
 ---
 
 ## Primitive Data Structures
