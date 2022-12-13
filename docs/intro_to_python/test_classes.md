@@ -2,6 +2,7 @@
 layout: default
 title:  Classes
 parent: Class
+nav_order: 1
 ---
 
 # Classes
