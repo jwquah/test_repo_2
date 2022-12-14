@@ -9,8 +9,8 @@ nav_order: 1
 # Classes
 + As with any object oriented programming language, Python supports classes.
 + Class is a programming construct and can be thought of as a "blueprint":
- + It is used to create and contain objects
- + It does not occupy any memory space like function definitions do
+	* It is used to create and contain objects
+	* It does not occupy any memory space like function definitions do
 
 + In practice, the statements inside a class definition will usually be function definitions
 
@@ -23,8 +23,8 @@ For example, a class may be a car blueprint and an object would be cars themselv
 
 
 ```python
-# Double underscrore is predefined properties for an object
-# __init__ is a constructor
+# Double underscore is predefined property for an object
+# For example, __init__ is a constructor
 ```
 
 
@@ -37,22 +37,14 @@ class car():
         print('This car is in the color: {}'.format(self.color))
 ```
 
-
 ```python
 carl = car('red')
 john = car('blue')
-```
+### A car created with the color: red
+### A car created with the color: blue
 
-    A car created with the color: red
-    A car created with the color: blue
-
-
-
-```python
-# To get details:
 carl.get_details()
 john.get_details()
+### This car is in the color: red
+### This car is in the color: blue
 ```
-
-    This car is in the color: red
-    This car is in the color: blue

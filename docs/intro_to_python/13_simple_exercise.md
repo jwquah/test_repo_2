@@ -8,7 +8,7 @@ nav_order: 13
 
 # Basic Exercises
 
-## Write a basic program to check for the correct password        
+## Write a basic program to check for the correct password
 
 
 ```python

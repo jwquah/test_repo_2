@@ -5,6 +5,9 @@ parent: Introduction to Python
 nav_order: 7
 ---
 
+## Table of contents
+{: .no_toc .text-delta }
+
 1. TOC
 {:toc}
 
@@ -285,7 +288,7 @@ print('Delete emp_info 8888 : {}'.format(emp_info))
 
 
 
-### Summary
+## Summary
 + List supports more operations and therefore consumes more memory space. If your list is large (high number of elements), it will consume a considerable amount of memory
 + Tuple is constant, immutable so uses a set amount of resource
 + For security (constant), consider using tuple, otherwise list is advantageous due to its flexibility

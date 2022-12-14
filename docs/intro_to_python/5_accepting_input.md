@@ -10,8 +10,8 @@ nav_order: 5
 
 ```python
 a = input('Enter age: ')
-print('Your age is: {}'.format(a.strip()))
-```
+### Enter age: 26
 
-    Enter age: 26
-    Your age is: 26
+print('Your age is: {}'.format(a.strip()))
+### Your age is: 26
+```

@@ -10,34 +10,15 @@ nav_order: 23
 
 ```python
 import os
+
 d = os.system('cd')
 d
-```
+### 0
 
-
-
-
-    0
-
-
-
-
-```python
 d = os.popen('cd').read()
 d
-```
+### 'C:\\Users\\jwquah\\Downloads\\Python_Training\n'
 
-
-
-
-    'C:\\Users\\jwquah\\Downloads\\Python_Training\n'
-
-
-
-
-```python
 print(d)
+### C:\Users\jwquah\Downloads\Python_Training
 ```
-
-    C:\Users\jwquah\Downloads\Python_Training
-    

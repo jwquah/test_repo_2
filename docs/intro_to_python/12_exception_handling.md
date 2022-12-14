@@ -5,6 +5,12 @@ parent: Introduction to Python
 nav_order: 12
 ---
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ## Exception Handling
 
 ```python
@@ -26,7 +32,7 @@ divide(2, 0)
 ### This line is always executed at the end of a try statement
 ```
 
-### Assertion
+## Assertion
 
 ```python
 a = float(input("current temperature: "))

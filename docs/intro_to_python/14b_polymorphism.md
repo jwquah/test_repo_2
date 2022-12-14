@@ -36,10 +36,13 @@ hawk   = bird()
 chimp  = monkey()
 
 salmon.nature()
+### I can swim!
+
 hawk.nature()
+### I can fly!
+
 chimp.nature()
+### I can climb!
 ```
 
-    I can swim!
-    I can fly!
-    I can climb!
+

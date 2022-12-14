@@ -27,20 +27,19 @@ def basic_add (x = 0, y = 0):
 import user_functions as uf
 
 uf.greetings('Peter')
+### Hello Peter
 uf.basic_add(2,3)
+### Result of addition: 5
 ```
-
-    Hello Peter
-    Result of addition: 5
-
-
 
 ```python
 from user_functions import greetings, basic_add
 
 greetings('Spock')
+### Hello Spock
+
 basic_add(2,3)
+### Result of addition: 5
 ```
 
-    Hello Spock
-    Result of addition: 5
+

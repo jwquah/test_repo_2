@@ -5,11 +5,17 @@ parent: Introduction to Python
 nav_order: 9
 ---
 
-### Flow Control
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Flow Control
 + **Break**   : Exits out of the loop if condition is met
 + **Continue**: Returns control to the loop and proceeds to the next if condition is met
 
-
+### Break
 ```python
 print('Looping from 0 to 10, exiting if value = 5')
 var = 0                    
@@ -20,18 +26,15 @@ while var < 10:
    print (var)
 
 
-
+### Looping from 0 to 10, exiting if value = 5
+### 1
+### 2
+### 3
+### 4
 
 ```
 
-    Looping from 0 to 10, exiting if value = 5
-    1
-    2
-    3
-    4
-
-
-
+### Continue
 ```python
 print('Looping from 0 to 10, skipping if value = 5')
 var = 0                    
@@ -42,18 +45,14 @@ while var < 10:
    print (var)
 
 
-
-
+### Looping from 0 to 10, skipping if value = 5
+### 1
+### 2
+### 3
+### 4
+### 6
+### 7
+### 8
+### 9
+### 10
 ```
-
-    Looping from 0 to 10, skipping if value = 5
-    1
-    2
-    3
-    4
-    6
-    7
-    8
-    9
-    10
-    

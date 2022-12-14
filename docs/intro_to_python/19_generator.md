@@ -21,43 +21,17 @@ def simple_generator(number):
         yield number
         number = number + 1
 
-```
 
-
-```python
 c = simple_generator(3)
 next(c)
-```
+### 3
 
-
-
-
-    3
-
-
-
-
-```python
 next(c)
-```
+### 4
 
-
-
-
-    4
-
-
-
-
-```python
 next(c)
+### 5
 ```
-
-
-
-
-    5
-
 
 
 
@@ -75,66 +49,26 @@ def my_gen():
     n += 1
     print('This is printed at last')
     yield n
-```
 
 
-```python
-a = my_gen()
 next(a)
-```
+### This is printed first
+### 1
 
-    This is printed first
-
-
-
-
-
-    1
-
-
-
-
-```python
 next(a)
-```
+### This is printed second
+### 2
 
-    This is printed second
-
-
-
-
-
-    2
-
-
-
-
-```python
 next(a)
-```
+### This is printed at last
+### 3
 
-    This is printed at last
-
-
-
-
-
-    3
-
-
-
-
-```python
 next(a)
+###    ---------------------------------------------------------------------------
+###
+###    StopIteration                             Traceback (most recent call last)
+###
+###    <ipython-input-75-15841f3f11d4> in <module>()
+###    ----> 1 next(a)
+###     StopIteration:
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    StopIteration                             Traceback (most recent call last)
-
-    <ipython-input-75-15841f3f11d4> in <module>()
-    ----> 1 next(a)
-
-
-    StopIteration:

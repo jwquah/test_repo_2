@@ -38,16 +38,15 @@ all_lines = file_handle.readlines()
 file_handle.close()
 
 print("All lines: {}".format(all_lines))
+### All lines: ['Hello world\n', 'Finish!Appending entry\n', 'Finish appending!']
 
 for line in all_lines:
     line = line.strip()
     print("Each line: {}".format(line))
+### Each line: Hello world
+### Each line: Finish!Appending entry
+### Each line: Finish appending!    
 ```
-
-    All lines: ['Hello world\n', 'Finish!Appending entry\n', 'Finish appending!']
-    Each line: Hello world
-    Each line: Finish!Appending entry
-    Each line: Finish appending!
 
 
 ### Using 'with' statement to access file
@@ -57,8 +56,9 @@ for line in all_lines:
 with open('C:\\temp\\test.txt', 'r') as file:
     data = file.read()
     print(data)
+### Hello world
+### Finish!Appending entry
+### Finish appending!    
 ```
 
-    Hello world
-    Finish!Appending entry
-    Finish appending!
+

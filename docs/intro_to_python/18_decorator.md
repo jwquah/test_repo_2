@@ -9,45 +9,56 @@ nav_order: 18
 
 Decorators dynamically alter the functionality of a function, method, or class without having to directly use subclasses or change the source code of the function being decorated.
 
-In a sense, allows you to transparently "wrap" the existing function with additional functionality. For example, from https://www.oreilly.com/ideas/5-reasons-you-need-to-learn-to-write-python-decorators:
+In a sense, allows you to transparently "wrap" the existing function with additional functionality. For example, https://www.oreilly.com/ideas/5-reasons-you-need-to-learn-to-write-python-decorators gives a good example about using decorators to validate (output must be not more than 80 characters long) against different python functions:
 
-Imagine this: you have a set of functions, each returning a dictionary, which (among other fields) includes a field called "summary." The value of this summary must not be more than 80 characters long; if violated, that’s an error.
+```python
+def validate_summary(func):
+    def wrapper(*args, **kwargs):
+        data = func(*args, **kwargs)
+        if len(data["summary"]) > 80:
+            raise ValueError("Summary too long")
+        return data
+    return wrapper
 
-Also, read https://www.thecodeship.com/patterns/guide-to-python-function-decorators/
+@validate_summary
+def fetch_customer_data():
+    # ...
 
-In the example below, the _run_ function is "wrapped" by the *log_file* function so that when any os commands are issued, the output is written to log.txt
+@validate_summary
+def query_orders(criteria):
+    # ...
+
+@validate_summary
+def create_invoice(params):
+    # ...
+```    
+
+https://www.thecodeship.com/patterns/guide-to-python-function-decorators/ also offers a good explanation on decorators.
+
+In the example below, the _run_ function is "wrapped" by the *record_output* function so that when any command is issued, the output is written to log.txt
 
 
 ```python
 import os
-def log_file (func):
-'''
-takes any OS commands and wites result int log file
-'''
-
-def wrapper(command):
-    command = command + " >> log.txt "
-    return any_function(command)
-return wrapper
-```
+def record_output (func):
+    '''
+    takes in command and writes result into log file
+    '''
+    def wrapper(command):
+        command = command + " >> log.txt "
+        func(command)
+    return wrapper
 
 
-```python
-@log_file
+@record_output
 def run(command):
-os.system(command)
-```
+    os.system(command)
 
-
-```python
-run('date /T')
+run('date')
 
 with open('log.txt','r') as fh:
-output = fh.readlines()
+    output = fh.readlines()
 
 print(output)
-```
-
-```
-['Fri 07/13/2018 \n']
+### ['Fri 07/13/2018 \n']
 ```

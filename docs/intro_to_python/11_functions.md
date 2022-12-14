@@ -61,7 +61,6 @@ def display(**names):
 
 map_dict = {'surendra': 1234, 'ben' : 3456, 'unknwn': 4567}
 display(**map_dict)  
-
 ### Name: surendra, ID: 1234
 ### Name: ben, ID: 3456
 ### Name: unknwn, ID: 4567      
@@ -87,7 +86,6 @@ add(4)
 
 dict_a = { 'a': 'apple'}
 add(3, 4, **dict_a)
-
 ### Printing from dictionary: KEY - a, VALUE - apple
 ### Value of 3^2 = apple
 ### Total sum = 10
