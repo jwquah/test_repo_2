@@ -4,6 +4,11 @@ title:  File read/write
 parent: Introduction to Python
 nav_order: 6
 ---
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## File Read/Write
 + open arguments:
